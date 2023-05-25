@@ -1,0 +1,143 @@
+
+*{
+
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+
+    background-color: #8a3a0f;
+
+}
+
+header{
+
+    background-image: linear-gradient(to top, #662400,#e67e47 );
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+
+}
+
+header h1{
+
+    margin: 22px 0px 0px 0px;
+    font-size: 2.5em;
+    padding: 2px;
+    text-shadow: 3px 4px 3px black;
+
+}
+
+header h3{
+
+    font-size: 1.2em;
+    margin: 20px 20px;
+    text-shadow: 3px 3px 3px black;
+    font-weight: 700;
+
+}
+
+nav{
+
+    padding: 10px 100px 10px 10px;
+    margin: -1px -10px -1px -1px;
+    background-color: #662400;
+    margin: auto;
+    
+
+
+}
+
+nav a:hover{
+
+    background-color: #B33F00;
+    color: #662400;
+
+}
+
+nav a{
+
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    transition-duration: .5s;
+    text-decoration: none;
+    border-radius: 8px;
+    color: #ec5e11dc;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px black;
+
+}
+
+main{
+
+    padding: 20px;
+    margin: auto;
+    background-color: black;
+    min-width: 370px;
+    max-width: 1000px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+
+}
+
+main p{
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    line-height: 1.4em;
+    font-weight: 550;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+main img{
+
+    width: 100%;
+
+}
+
+main h2{
+
+    color: #0aede5de;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    text-shadow: 3px 3px 3px black;
+    margin: 25px 10px 5px 0px;
+
+}
+
+div.video{
+
+    background-color: black;
+    margin: 0px 10px 30px 10px;
+    padding: 20px 20px;
+    padding-bottom: 57%;
+    position: relative;
+
+}
+
+div.video > iframe{
+
+    position: absolute;
+    top: 5%;
+    left: -1%;
+    width: 102%;
+    height: 95%;
+}
+
+footer{
+
+    background-color: #662400;
+    margin:  30px 0px 0px 0px;
+    padding: 15px 10px 10px 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-shadow: 3px 3px 3px black;
+
+}
