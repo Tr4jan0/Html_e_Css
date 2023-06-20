@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+:root{
+    --font1: Verdana, Geneva, sans-serif;
+    --font2: 'Merriweather', serif;
+    --font3: 'Anton', sans-serif;
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+    margin: -8px;
+    margin-bottom: 30px;
+}
+
+header > h1{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+    font-family: var(--font3);
+    font-variant: small-caps;
+    font-size: 10vw;
+    font-size: 4em;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    font-family: var(--font2);
+    margin: 10px;
+}
+
+section > p{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+section.imagem{
+    display: inline-block;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#img01{
+    background-image: url(../imagens/img02.png);
+    background-position: center top;
+}
