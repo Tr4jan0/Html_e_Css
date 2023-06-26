@@ -34,14 +34,16 @@ body{
 
 section{
     padding-top: 10vh;
-    padding-bottom: 10vh;
-    font-family: var(--font2);
-    margin: 10px;
+    padding-bottom: vh;
+    margin: auto;
+    padding: 100px;
 }
 
 section > p{
+    line-height: 2em;
+    font-family: var(--font2);
+    text-shadow: 3px 3px 3px black;
     color: white;
-    text-shadow: 2px 2px 2px black;
 }
 
 section.imagem{
@@ -50,7 +52,32 @@ section.imagem{
     background-attachment: fixed;
 }
 
+a {
+    color: coral;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
 section#img01{
+    background-image: url(../imagens/img03.jpeg);
+    background-position: center top;
+}
+
+section#img02{
     background-image: url(../imagens/img02.png);
     background-position: center top;
 }
+
+footer{
+    background-color: black;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    padding: 10px;
+    margin: -8px;
+}
+
+
