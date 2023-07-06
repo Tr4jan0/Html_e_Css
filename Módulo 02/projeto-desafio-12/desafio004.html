@@ -12,14 +12,30 @@
 
         table{
             border-collapse: collapse;
-            width: 500px;
-            height: 500px;
         }
 
         td, th{
             border: 1px solid black;
-            padding: 17px;
-            ;
+            padding: 15px;
+            text-align: center;
+        }
+
+        tbody .linha{
+            text-align: left;
+        }
+
+        tbody td{
+            text-align: left;
+        }
+
+        .media{
+            text-align: center;
+            font-weight: bolder;
+        }
+
+        th{
+            background-color: lightgrey;
+            color: white;
         }
 
     </style>
@@ -33,15 +49,15 @@
         <thead>
 
             <tr>
-                <th>Área</th>
-                <th>Disciplinas</th>
-                <th>Notas</th>
-                <th>Média</th>
+                <th rowspan="2" scope="col">Área</th>
+                <th rowspan="2" scope="col">Disciplinas</th>
+                <th colspan="2" scope="colgroup">Notas</th>
+                <th rowspan="2" scope="col">Média</th>
             </tr>
 
             <tr>
-                <th>Nota 1</th>
-                <th>Nota 2</th>
+                <th scope="col">Nota 1</th>
+                <th scope="col">Nota 2</th>
             </tr>
 
         </thead>
@@ -49,8 +65,8 @@
         <tbody>
 
             <tr>
-                <td rowspan="4">Exatas</td>
-                <td> Matemática</td>
+                <td rowspan="4" scope="rowgroup" class="media">Exatas</td>
+                <td>Matemática</td>
                 <td>0.0</td>
                 <td>0.0</td>
                 <td>0.0</td>
@@ -74,10 +90,10 @@
                 <td>0.0</td>
             </tr>
             <tr>
-                <td colspan="5">Média de Exatas</td>
+                <th colspan="5" class="linha" scope="rowgroup">Média de Exatas</th>
             </tr>
             <tr>
-                <td rowspan="2">Humanas</td>
+                <td rowspan="2" class="media">Humanas</td>
                 <td>História</td>
                 <td>0.0</td>
                 <td>0.0</td>
@@ -90,16 +106,15 @@
                 <td>0.0</td>
             </tr>
 
-        </tbody>
-
-        <tfoot>
             <tr>
-                <td colspan="4">Média de Humanas</td>
-                <td>0.0</td>
+                <th colspan="4" class="linha" scope="rowgroup">Média de Humanas</th>
+                <th>0.0</th>
             </tr>
-        </tfoot>
+
+        </tbody>
 
     </table>
 
 </body>
+
 </html>
